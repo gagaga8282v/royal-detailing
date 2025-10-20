@@ -1,6 +1,23 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- NEW TYPOGRAPHY -->
+<style>
+    /* headlines & logo */
+    h1, h2, h3, #header .logo {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: .5px;
+    }
+    /* body text */
+    body, p, label, input, textarea, table {
+        font-family: 'Inter', sans-serif;
+    }
+</style>
     <title>Royal Detail - Auto-Detailing Dienstleistungen</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -9,7 +26,20 @@
 
     <!-- 1. Luxury Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
+<!-- CUSTOM LOGO -->
+<style>
+    /* size & position */
+    #header .logo {
+        width: 110px;          /* change to taste */
+        height: 110px;
+        margin: 0 auto 1em auto;
+        background: url('images/logo.jpg') center/cover no-repeat;
+        border-radius: 50%;    /* delete if you want square */
+    }
+    /* hide the old gem icon */
+    #header .logo .icon { display: none; }
+h1 { font-size: 3.2rem; }   /* bigger royal feel */
+</style>
     <style>
         /* 2. Apply the fonts */
         body{ font-family:'Inter', sans-serif; background:#1a1a1a; color:#d4af37; }
